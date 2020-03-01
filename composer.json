@@ -1,0 +1,17 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Customer\\": "module/Customer/src/",
+      "Movie\\": "module/Movie/src/",
+      "Rental\\": "module/Rental/src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "MovieTest\\": "module/Movie/tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8"
+  }
+}
